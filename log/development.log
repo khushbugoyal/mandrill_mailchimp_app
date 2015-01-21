@@ -1,0 +1,15 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-19 15:55:34 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 70949360ms
+
+ThreadError (killed thread):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /home/vinay/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (117.3ms)
+  Rendered /home/vinay/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (28.3ms)
+  Rendered /home/vinay/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /home/vinay/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (5.6ms)
+  Rendered /home/vinay/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (313.8ms)
